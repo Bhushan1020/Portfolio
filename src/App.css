@@ -1,0 +1,64 @@
+/* Basic body font */
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Primary button */
+.btn-primary {
+  background-color: #9929fb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #650fa0;
+  transform: scale(1.05);
+}
+
+/* Container */
+.content {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+/* Section title */
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Flexbox centering */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Background for introduction section */
+.introduction-profile-background {
+  background: radial-gradient(circle at 12% 100%, #ffe2b0 5%, transparent 15%),
+              radial-gradient(circle at 95% -15%, #da4df1 5%, transparent 30%),
+              radial-gradient(circle at center right, #c4f5e9 2%, transparent 35%);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Background for blog section */
+.blog-background {
+  background: radial-gradient(circle at -10% 0%, #da4df1 5%, transparent 25%),
+              radial-gradient(circle at 110% 30%, #c4f5e9 5%, transparent 25%);
+  padding: 40px;
+  border-radius: 10px;
+}
