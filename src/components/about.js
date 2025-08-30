@@ -38,7 +38,7 @@ const Profile = () => {
               <a className="btn btn-primary" href="#portfolio">
                 My Projects
               </a>
-              <a className="btn btn-secondary" href="#!">
+              <a className="btn btn-secondary" href="https://drive.google.com/file/d/1hcrRyiWk4ODKCFNItvaz67p1sZxCijw_/view?usp=sharing">
                 <FontAwesomeIcon icon={faDownload} /> Download CV
               </a>
             </div>
