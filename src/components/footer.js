@@ -101,19 +101,19 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3>Quick Links</h3>
-            <a href="#introduction">Home</a>
-            <a href="#profile">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#services">Services</a>
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Portfolio</a>
+            <a href="/">Services</a>
           </div>
 
           {/* Services */}
           <div>
             <h3>Services</h3>
-            <a href="#">Web Development</a>
-            <a href="#">Software Development</a>
-            <a href="#">UI/UX Design</a>
-            <a href="#">Problem Solving</a>
+            <a href="/">Web Development</a>
+            <a href="/">Software Development</a>
+            <a href="/">UI/UX Design</a>
+            <a href="/">Problem Solving</a>
           </div>
 
           {/* Contact */}
